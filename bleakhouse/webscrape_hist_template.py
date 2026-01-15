@@ -37,4 +37,5 @@ plt.ylabel('Mentions')
 plt.legend(['Esther','Guppy'])
 plt.title('Character Mentions per Chapter in Bleak House')
 
+plt.savefig('character_count.png',dpi=200)
 plt.show()
